@@ -8,15 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ScaledMetric(relativeTo: .largeTitle) private var spacing: CGFloat = 20.0
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-                
+        ScrollView {
+            TypographyView()
         }
-        .padding()
+        .border(.red)
     }
 }
 
@@ -25,3 +22,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+

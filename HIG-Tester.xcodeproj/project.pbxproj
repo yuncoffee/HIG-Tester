@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A90606CC2A3F441A008030BB /* TypographyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90606CB2A3F441A008030BB /* TypographyView.swift */; };
 		A91BAC5C2A3F361B00D97101 /* HIG_TesterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91BAC5B2A3F361B00D97101 /* HIG_TesterApp.swift */; };
 		A91BAC5E2A3F361B00D97101 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91BAC5D2A3F361B00D97101 /* ContentView.swift */; };
 		A91BAC602A3F361D00D97101 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A91BAC5F2A3F361D00D97101 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A90606CB2A3F441A008030BB /* TypographyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypographyView.swift; sourceTree = "<group>"; };
 		A91BAC582A3F361B00D97101 /* HIG-Tester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HIG-Tester.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A91BAC5B2A3F361B00D97101 /* HIG_TesterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HIG_TesterApp.swift; sourceTree = "<group>"; };
 		A91BAC5D2A3F361B00D97101 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +73,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A90606CA2A3F4409008030BB /* Typography */ = {
+			isa = PBXGroup;
+			children = (
+				A90606CB2A3F441A008030BB /* TypographyView.swift */,
+			);
+			path = Typography;
+			sourceTree = "<group>";
+		};
 		A91BAC4F2A3F361B00D97101 = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +104,7 @@
 		A91BAC5A2A3F361B00D97101 /* HIG-Tester */ = {
 			isa = PBXGroup;
 			children = (
+				A90606CA2A3F4409008030BB /* Typography */,
 				A91BAC5B2A3F361B00D97101 /* HIG_TesterApp.swift */,
 				A91BAC5D2A3F361B00D97101 /* ContentView.swift */,
 				A91BAC5F2A3F361D00D97101 /* Assets.xcassets */,
@@ -259,6 +270,7 @@
 			files = (
 				A91BAC5E2A3F361B00D97101 /* ContentView.swift in Sources */,
 				A91BAC5C2A3F361B00D97101 /* HIG_TesterApp.swift in Sources */,
+				A90606CC2A3F441A008030BB /* TypographyView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
