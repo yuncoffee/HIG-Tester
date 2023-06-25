@@ -15,6 +15,7 @@
 		A91BAC6D2A3F361D00D97101 /* HIG_TesterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91BAC6C2A3F361D00D97101 /* HIG_TesterTests.swift */; };
 		A91BAC772A3F361D00D97101 /* HIG_TesterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91BAC762A3F361D00D97101 /* HIG_TesterUITests.swift */; };
 		A91BAC792A3F361D00D97101 /* HIG_TesterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91BAC782A3F361D00D97101 /* HIG_TesterUITestsLaunchTests.swift */; };
+		A986811E2A48382F00C58C8B /* HigImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A986811D2A48382F00C58C8B /* HigImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		A91BAC722A3F361D00D97101 /* HIG-TesterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HIG-TesterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A91BAC762A3F361D00D97101 /* HIG_TesterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HIG_TesterUITests.swift; sourceTree = "<group>"; };
 		A91BAC782A3F361D00D97101 /* HIG_TesterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HIG_TesterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A986811D2A48382F00C58C8B /* HigImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HigImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 		A91BAC5A2A3F361B00D97101 /* HIG-Tester */ = {
 			isa = PBXGroup;
 			children = (
+				A986811C2A48381500C58C8B /* Image */,
 				A90606CA2A3F4409008030BB /* Typography */,
 				A91BAC5B2A3F361B00D97101 /* HIG_TesterApp.swift */,
 				A91BAC5D2A3F361B00D97101 /* ContentView.swift */,
@@ -136,6 +139,14 @@
 				A91BAC782A3F361D00D97101 /* HIG_TesterUITestsLaunchTests.swift */,
 			);
 			path = "HIG-TesterUITests";
+			sourceTree = "<group>";
+		};
+		A986811C2A48381500C58C8B /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				A986811D2A48382F00C58C8B /* HigImageView.swift */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +282,7 @@
 				A91BAC5E2A3F361B00D97101 /* ContentView.swift in Sources */,
 				A91BAC5C2A3F361B00D97101 /* HIG_TesterApp.swift in Sources */,
 				A90606CC2A3F441A008030BB /* TypographyView.swift in Sources */,
+				A986811E2A48382F00C58C8B /* HigImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

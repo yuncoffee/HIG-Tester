@@ -46,6 +46,7 @@ extension TypographyView {
         }
     }
     
+    // MARK: Tighting
     func AllowTightingView() -> some View {
         VStack(alignment: .leading) {
             Text("Hello, world! Hello, world! Hello, world! Hello, world! 안녕")
@@ -74,7 +75,7 @@ extension TypographyView {
         }
     }
     
-    
+    // MARK: Leading
     func LeadingView() -> some View {
         VStack(alignment: .leading) {
             Text("Hello, world! Hello, world! Hello, world! Hello, world!")
@@ -89,6 +90,7 @@ extension TypographyView {
         }
     }
     
+    // MARK: Design
     func DesignFontView() -> some View {
         let roundedLargeTitleFont = Font.system(.largeTitle, design: .rounded)
         let serifLargeTitleFont = Font.system(.largeTitle, design: .serif)
@@ -114,6 +116,7 @@ extension TypographyView {
         }
     }
     
+    // MARK: Custom
     func CustomFontView() -> some View {
         let defaultLargeTitleFont = Font.system(.largeTitle, design: .default)
         return VStack(alignment: .leading) {
@@ -126,6 +129,7 @@ extension TypographyView {
         }
     }
     
+    // MARK: Styling
     func StylingFontView() -> some View {
         let defaultLargeTitleFont = Font.system(.largeTitle, design: .default)
         return VStack(alignment: .leading) {
@@ -162,6 +166,7 @@ extension TypographyView {
         }
     }
     
+    // MARK: Weight
     func WeightFontView() -> some View {
         let defaultLargeTitleFont = Font.system(.largeTitle, design: .default)
         return VStack(alignment: .leading) {
@@ -195,6 +200,7 @@ extension TypographyView {
         }
     }
     
+    // MARK: Width
     func WidthFontView() -> some View {
         let defaultLargeTitleFont = Font.system(.largeTitle, design: .default)
         return VStack(alignment: .leading) {

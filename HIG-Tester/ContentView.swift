@@ -10,10 +10,9 @@ import SwiftUI
 struct ContentView: View {
     @ScaledMetric(relativeTo: .largeTitle) private var spacing: CGFloat = 20.0
     var body: some View {
-        ScrollView {
-            TypographyView()
-        }
-        .border(.red)
+        HigImageView()
+        
+        //        TypographyView()
     }
 }
 
