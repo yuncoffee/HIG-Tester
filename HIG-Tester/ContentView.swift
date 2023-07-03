@@ -9,10 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     @ScaledMetric(relativeTo: .largeTitle) private var spacing: CGFloat = 20.0
+    
     var body: some View {
-        HigImageView()
-        
+//        HigImageView()
         //        TypographyView()
+        AccessibilityView()
     }
 }
 
@@ -21,4 +22,3 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
-

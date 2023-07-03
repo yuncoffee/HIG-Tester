@@ -8,7 +8,7 @@
 import XCTest
 @testable import HIG_Tester
 
-final class HIG_TesterTests: XCTestCase {
+final class HIGTesterTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

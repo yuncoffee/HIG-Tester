@@ -9,7 +9,7 @@ import SwiftUI
 
 struct TypographyView: View {
     @ScaledMetric(relativeTo: .largeTitle) private var spacing: CGFloat = 20.0
-    
+
     var body: some View {
         ScrollView {
             VStack(alignment: .leading) {
@@ -24,7 +24,7 @@ struct TypographyView: View {
             .padding(spacing)
             .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
         }
-        
+
     }
 }
 
@@ -45,7 +45,7 @@ extension TypographyView {
                 .border(.red)
         }
     }
-    
+
     // MARK: Tighting
     func AllowTightingView() -> some View {
         VStack(alignment: .leading) {
@@ -74,7 +74,7 @@ extension TypographyView {
                 .border(.red)
         }
     }
-    
+
     // MARK: Leading
     func LeadingView() -> some View {
         VStack(alignment: .leading) {
@@ -89,7 +89,7 @@ extension TypographyView {
                 .border(.red)
         }
     }
-    
+
     // MARK: Design
     func DesignFontView() -> some View {
         let roundedLargeTitleFont = Font.system(.largeTitle, design: .rounded)
@@ -115,7 +115,7 @@ extension TypographyView {
                 .border(.red)
         }
     }
-    
+
     // MARK: Custom
     func CustomFontView() -> some View {
         let defaultLargeTitleFont = Font.system(.largeTitle, design: .default)
@@ -128,7 +128,7 @@ extension TypographyView {
             Text("Fixed").font(.custom("Courier", fixedSize: 17))
         }
     }
-    
+
     // MARK: Styling
     func StylingFontView() -> some View {
         let defaultLargeTitleFont = Font.system(.largeTitle, design: .default)
@@ -165,7 +165,7 @@ extension TypographyView {
                 .border(.red)
         }
     }
-    
+
     // MARK: Weight
     func WeightFontView() -> some View {
         let defaultLargeTitleFont = Font.system(.largeTitle, design: .default)
@@ -199,7 +199,7 @@ extension TypographyView {
                 .border(.red)
         }
     }
-    
+
     // MARK: Width
     func WidthFontView() -> some View {
         let defaultLargeTitleFont = Font.system(.largeTitle, design: .default)
@@ -225,4 +225,3 @@ struct TypographyView_Previews: PreviewProvider {
         TypographyView()
     }
 }
-
